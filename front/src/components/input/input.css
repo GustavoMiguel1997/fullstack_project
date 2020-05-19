@@ -1,0 +1,39 @@
+.input-box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 0.125rem solid #bebdbd;
+  color: #636060;
+  font-size: 1rem;
+  margin-top: 1rem;
+  outline: none;
+  transition: 0.5s all;
+  height: 1.5rem;
+  width: 100%;
+}
+
+.input:focus {
+  border-color: #f33050ed;
+}
+
+.input-span {
+  color: #7e7979;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 0.875rem;
+  transition: 0.5s all;
+  position: absolute;
+  bottom: 0.5rem;
+}
+
+.input-span.-isFilled {
+  transform: translateY(-180%);
+  font-size: 0.625rem;
+  bottom: 0.5rem;
+}
