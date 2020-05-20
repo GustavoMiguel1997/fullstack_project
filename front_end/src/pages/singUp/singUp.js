@@ -33,8 +33,7 @@ function SingUp(){
         login(response.data.token);
         props.history.push('/home');
       } catch (error) {
-        console.log(error);
-        setError({ message: 'Error ao fazer login' });
+        setError({ message: error.response.data.error });
         setErrorMessageIsDisplay(true);
       }
     }
