@@ -29,7 +29,6 @@ function SingIn(props){
     } else {
       try {
         const response = await api.post('/user/login', { email, password });
-        console.log(response)
         login(response.data.token);
         props.history.push('/home');
       } catch (error) {

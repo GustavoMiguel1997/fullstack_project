@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import { isAuthenticated } from '../services/auth';
 import SingIn from '../pages/singIn/singIn';
 import SingUp from '../pages/singUp/singUp';
+import Home from '../pages/home/home';
 
 function PrivateRoute({ component: Component, ...rest }){
   return(
@@ -29,7 +30,7 @@ function Routes(){
         <RedirectRoute exact path='/'/>
         <Route path="/login" component={SingIn}/>
         <Route path="/register" component={SingUp}/>
-        <PrivateRoute path="/home" component={() => <h1>Login</h1>}/>
+        <PrivateRoute path="/home" component={Home}/>
       </Switch>
     </BrowserRouter>
   )
