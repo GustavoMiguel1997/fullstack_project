@@ -1,0 +1,34 @@
+.sidebar-button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  margin: 1.05rem 0;
+  outline: none;
+  filter: invert(98%);
+  height: 3rem;
+  width: 100%;
+}
+
+.sidebar-button:hover,
+.sidebar-button:focus {
+  filter: invert(100%);
+}
+
+.sidebar-button:focus:after,
+.sidebar-button:hover:after {
+  filter: invert(100%);
+  background: var(--dark-black); 
+  color: var(--main-white);
+  border: 1px solid var(--main-white);
+  content:attr(data-title);
+  position: relative; 
+  top: 0rem; 
+  left: 2.5rem;
+  padding: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.siderbar-button__icon {
+  height: 100%;
+  width: 100%;
+}

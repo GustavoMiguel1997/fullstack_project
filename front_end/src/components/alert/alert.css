@@ -1,5 +1,5 @@
 .home-alert {
-  background-color: #f04e4f;
+  background-color: var(--main-red);
   border-radius: 0.125rem;
   display: flex;
   color: #fff;
@@ -22,7 +22,7 @@
   width: 0;
   height: 0;
   border-top: 0.75rem solid transparent;
-  border-right: 1.5rem solid #f04e4f;
+  border-right: 1.5rem solid var(--main-red);
   border-bottom: 0.75rem solid transparent;
   transform: rotate(180deg);
 }

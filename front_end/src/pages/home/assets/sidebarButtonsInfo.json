@@ -1,0 +1,36 @@
+{
+  "buttonsInfo": [
+    {
+      "id": "buttonHome",
+      "title": "Home"
+    },
+    {
+      "id": "buttonTask",
+      "title": "Task"
+    },
+    {
+      "id": "buttonGrafic",
+      "title": "Grafic"
+    },
+    {
+      "id": "buttonCalendar",
+      "title": "Calendar"    
+    },
+    {
+      "id": "buttonNotifications",
+      "title": "Notifications"    
+    },
+    {
+      "id": "buttonHelp",
+      "title": "Help"    
+    },
+    {
+      "id": "buttonConfig",
+      "title": "Configuration"    
+    },
+    {
+      "id": "buttonLogout",
+      "title": "Logout"    
+    }
+  ]
+}

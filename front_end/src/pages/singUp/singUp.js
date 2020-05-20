@@ -5,7 +5,7 @@ import { login } from '../../services/auth';
 import Header from '../../components/header/header';
 import Input from '../../components/input/input';
 import singUpIcon from '../../assets/icons/pencil.svg';
-import './singUp.css';
+// import './singUp.css';
 
 function SingUp(){
   const [name, setName] = useState('');

@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   color: #fdfdfd;
-  background-color: #f04e4f;
+  background-color: var(--main-red);
   box-sizing: border-box;
   padding-left: 3rem;
   padding-right: 5rem;
@@ -33,5 +33,5 @@
 .home-header__button:hover,
 .home-header__button:focus {
   background-color: #fdfdfd;
-  color: #f04e4f;
+  color: var(--main-red);
 }

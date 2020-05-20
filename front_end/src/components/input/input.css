@@ -8,7 +8,7 @@
 .input {
   background-color: transparent;
   border: 0;
-  border-bottom: 0.125rem solid #bebdbd;
+  border-bottom: 0.125rem solid var(--main-black);
   color: #636060;
   font-size: 1rem;
   margin-top: 1rem;
@@ -19,11 +19,11 @@
 }
 
 .input:focus {
-  border-color: #f33050ed;
+  border-color: var(--main-red);
 }
 
 .input-span {
-  color: #7e7979;
+  color: var(--main-black);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
   font-size: 0.875rem;

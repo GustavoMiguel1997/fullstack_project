@@ -5,7 +5,7 @@ services:
     container_name: db
     restart: always
     ports:
-      - ${DB_PORT}:27017
+      - 27010:27017
     environment:
       MONGO_INITDB_DATABASE: ${DB_NAME}
 

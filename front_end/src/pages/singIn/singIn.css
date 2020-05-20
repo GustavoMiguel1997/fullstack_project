@@ -1,5 +1,5 @@
 .form-div {
-  background-color: #fdfdfd;
+  background-color: var(--main-white);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,7 +7,7 @@
 }
 
 .singIn-form {
-  background-color: #fdfdfd;
+  background-color: var(--main-white);
   box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0.25rem;
   display: inline-flex;
@@ -27,10 +27,10 @@
 
 .singIn-form__title > h1 {
   display: inline-block;
-  color: #f04e4f;
+  color: var(--main-red);
   padding-left: 2.75rem;
   font-size: 1.5rem;
-  border-left: 0.25rem solid #f04e4f;
+  border-left: 0.25rem solid var(--main-red);
   box-sizing: border-box;
   letter-spacing: 0px;
   height: 2rem;
@@ -38,7 +38,7 @@
 }
 
 .singIn-form__icon {
-  background-color: #f04e4f;
+  background-color: var(--main-red);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,8 +71,8 @@
   align-items: center;
   text-decoration: none;
   cursor: pointer;
-  color: #bebdbd;
-  border: 0.125rem solid #bebdbd;
+  color: var(--main-black);
+  border: 0.125rem solid var(--main-black);
   font-weight: bold;
   font-size: 1.25rem;
   outline: none;
@@ -84,15 +84,15 @@
 
 .singIng-form__submit:hover,
 .singIng-form__submit:focus {
-  color: #f33050;
-  border-color: #f33050;
+  color: var(--main-red);
+  border-color: var(--main-red);
 }
 
 .singIn-form__forgot-password {
   background-color: transparent;
   border: 0;
   cursor: pointer;
-  color: #bebdbd;
+  color: var(--main-black);
   text-align: center;
   font-size: 1rem;
   margin: 0 auto;
@@ -104,11 +104,14 @@
 .singIn-form__error {
   background-color: #f3305115;
   display: flex;
+  position: absolute;
   align-items: center;
   justify-content: center;
-  border: 0.125rem solid #f33050;
+  border: 0.125rem solid var(--main-red);
   padding: 0;
-  color: #f33050;
-  margin: 0.5rem 0 0 0;
-  height: 2rem;
+  font-size: 1rem;
+  color: var(--main-red);
+  bottom: 1rem;
+  height: 2.50rem;
+  width: 23rem;
 }
