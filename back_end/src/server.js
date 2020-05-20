@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors())
 
-require('./app/controllers/user/userControll')(app);
+require('./app/controllers/userControll')(app);
 
 app.get('/', (req, res) => {
   res.send('Server started port 3000!');
