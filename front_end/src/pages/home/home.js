@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { withRouter } from 'react-router-dom';
 import { logout } from '../../services/auth';
+import Card from '../../components/card/card';
 import Sidebar from './components/sidebar/sidebar';
 import SidebarButton from './components/sidebarButton/sidebarButton';
 import { buttonsInfo } from './assets/sidebarButtonsInfo.json';
@@ -38,8 +39,15 @@ function Home(props){
           }) 
         }
       </Sidebar>
-      <div>
-        
+      <div className="home-content">
+        <h1>Title bla bla bla </h1>
+        <hr/>
+        <div className="home-card">
+          <Card title="Total Tasks" color="orange"/>
+          <Card color="blue"/>
+          <Card color="green"/>
+          <Card color="red"/>
+        </div>
       </div>
     </div>
   )

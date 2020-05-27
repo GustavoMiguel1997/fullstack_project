@@ -1,4 +1,15 @@
 .home-page {
-  background-color: var(--main-gray);
-  display: flex;
+	background-color: var(--main-gray);
+	display: flex;
+}
+
+.home-content {
+	padding: 1.5rem;
+	width: 100%;
+}
+
+.home-card {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1.5rem;
 }

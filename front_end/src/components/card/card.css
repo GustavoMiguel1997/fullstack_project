@@ -1,6 +1,25 @@
 .card {
-  background-color: var(--main-blue);
-  border-radius: 0.25rem;
-  height: 15rem;
-  width: 20rem;
+	box-shadow: 1px 2px 5px 0px #0000004f;
+	box-sizing: border-box;
+	border-radius: 0.25rem;
+	padding: 1rem;
+	color: #fff;
+	height: 7rem;
+	width: 15rem;
+}
+
+.card.-red {
+	background: linear-gradient(to left, #e96a6a, #be4040);
+}
+
+.card.-green {
+	background: linear-gradient(to left, #8ccf98, #70b77d);
+}
+
+.card.-blue {
+	background: linear-gradient(to left, #8fa0d1, #7083b7);
+}
+
+.card.-orange {
+	background: linear-gradient(to left, #ffc558, #e9ab38);
 }
