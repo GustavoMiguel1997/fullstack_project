@@ -3,7 +3,6 @@ import { withRouter } from 'react-router-dom';
 import { logout } from '../../services/auth';
 import Sidebar from './components/sidebar/sidebar';
 import SidebarButton from './components/sidebarButton/sidebarButton';
-import Card from '../../components/card/card';
 import { buttonsInfo } from './assets/sidebarButtonsInfo.json';
 import './home.css';
 
