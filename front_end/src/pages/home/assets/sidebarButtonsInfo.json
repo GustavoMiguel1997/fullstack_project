@@ -2,35 +2,43 @@
   "buttonsInfo": [
     {
       "id": "buttonHome",
-      "title": "Home"
+      "title": "Home",
+      "barColor": "#659ecb"
     },
     {
       "id": "buttonTask",
-      "title": "Task"
+      "title": "Task",
+      "barColor": "#70b77d"
     },
     {
       "id": "buttonGrafic",
-      "title": "Grafic"
+      "title": "Grafic",
+      "barColor": "#8758bd"
     },
     {
       "id": "buttonCalendar",
-      "title": "Calendar"    
+      "title": "Calendar",
+      "barColor": "#545eb8"   
     },
     {
       "id": "buttonNotifications",
-      "title": "Notifications"    
+      "title": "Notifications",
+      "barColor": "#cba068"
     },
     {
       "id": "buttonHelp",
-      "title": "Help"    
+      "title": "Help",
+      "barColor": "#926563"
     },
     {
       "id": "buttonConfig",
-      "title": "Configuration"    
+      "title": "Configuration",
+      "barColor": "#769b92"    
     },
     {
       "id": "buttonLogout",
-      "title": "Logout"    
+      "title": "Logout",
+      "barColor": "#5e6161"  
     }
   ]
 }

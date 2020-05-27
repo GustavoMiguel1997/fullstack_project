@@ -7,7 +7,7 @@ import Input from '../../components/input/input';
 import singUpIcon from '../../assets/icons/pencil.svg';
 // import './singUp.css';
 
-function SingUp(){
+function SingUp(props){
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
