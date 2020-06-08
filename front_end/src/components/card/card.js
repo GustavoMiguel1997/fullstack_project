@@ -13,7 +13,7 @@ function Card({ title, description, icon, color }){
 }
 
 Card.defaultProps = {
-  color: 'green'
+  color: '#fff'
 }
 
 Card.propTypes = {

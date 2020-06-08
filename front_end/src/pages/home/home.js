@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { withRouter } from 'react-router-dom';
 import { logout } from '../../services/auth';
-import Card from '../../components/card/card';
-import Sidebar from './components/sidebar/sidebar';
-import SidebarButton from './components/sidebarButton/sidebarButton';
+import { Sidebar, SidebarButton, Header} from './components/components';
 import { buttonsInfo } from './assets/sidebarButtonsInfo.json';
 import './home.css';
 
@@ -23,7 +21,6 @@ function Home(props){
       <Sidebar>
         { 
           buttonsInfo.map(({ id, title, barColor }) => {
-            console.log(selectedButton, id)
             const { default: path } = require(`./assets/icons/sidebar/${title.toLowerCase()}.svg`);
             return ( 
               <SidebarButton 
@@ -40,13 +37,9 @@ function Home(props){
         }
       </Sidebar>
       <div className="home-content">
-        <h1>Title bla bla bla </h1>
-        <hr/>
+        <Header/>
         <div className="home-card">
-          <Card title="Total Tasks" color="orange"/>
-          <Card color="blue"/>
-          <Card color="green"/>
-          <Card color="red"/>
+          
         </div>
       </div>
     </div>

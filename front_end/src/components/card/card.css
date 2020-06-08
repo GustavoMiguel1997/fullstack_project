@@ -3,23 +3,24 @@
 	box-sizing: border-box;
 	border-radius: 0.25rem;
 	padding: 1rem;
+	background-color: #fff;
 	color: #fff;
 	height: 7rem;
 	width: 15rem;
 }
 
 .card.-red {
-	background: linear-gradient(to left, #e96a6a, #be4040);
+	background-color: #be4040;
 }
 
 .card.-green {
-	background: linear-gradient(to left, #8ccf98, #70b77d);
+	background-color: #70b77d;
 }
 
 .card.-blue {
-	background: linear-gradient(to left, #8fa0d1, #7083b7);
+	background-color: #7083b7;
 }
 
 .card.-orange {
-	background: linear-gradient(to left, #ffc558, #e9ab38);
+	background-color: #e9ab38;
 }

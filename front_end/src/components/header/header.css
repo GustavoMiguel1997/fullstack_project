@@ -1,4 +1,4 @@
-.home-header {
+.initital-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,12 +11,12 @@
   width: 100%;
 }
 
-.home-header__title {
+.initital-header__title {
   font-size: 1.75rem;
   font-weight: 400;
 }
 
-.home-header__button {
+.initital-header__button {
   background-color: transparent;
   border: 0.125rem solid #fdfdfd;
   border-radius: 0.125rem;
@@ -30,8 +30,8 @@
   width: 6rem;
 }
 
-.home-header__button:hover,
-.home-header__button:focus {
+.initital-header__button:hover,
+.initital-header__button:focus {
   background-color: #fdfdfd;
   color: var(--main-red);
 }
